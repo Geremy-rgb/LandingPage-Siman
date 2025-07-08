@@ -63,10 +63,36 @@ nav a:hover {
 /* Banner */
 .banner {
   width: 100%;
-  height: 300px;
-  background: url('') center center/cover no-repeat;
+  height: 101px;
+  background: url('https://siman.vtexassets.com/assets/vtex.file-manager-graphql/images/24d53226-f288-4d66-8e6f-80b28276aa4e___fc927acebeebe5a7390ada2d93ed3ae9.gif') center center/cover no-repeat;
   border-radius: 8px;
   margin: 20px 0;
+}
+  /* promo destacada */
+  
+.promo-card {
+  background-color: var(--color-blanco);
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+  text-align: center;
+}
+
+.promo-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.promo-card h3 {
+  padding: 10px 0;
+  color: var(--color-principal);
+}
+
+.promo-card p {
+  padding: 0 15px 15px;
+  font-size: 0.9rem;
+  color: var(--color-gris);
 }
 
 /* Secciones */
@@ -115,9 +141,5 @@ footer {
   nav ul {
     flex-direction: column;
     gap: 15px;
-  }
-
-  .banner {
-    height: 180px;
   }
 }
