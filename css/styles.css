@@ -42,6 +42,11 @@ header {
   padding: 15px 0;
 }
 
+.logo-siman-container {
+  padding-left: 15px;
+}
+
+
 .logo-siman{
   width: 200px;
 }
@@ -149,6 +154,45 @@ footer {
   padding: 15px 0;
   margin-top: 40px;
   font-size: 0.9rem;
+}
+
+/* Formulario suscripción */
+form {
+  max-width: 400px;
+  margin: auto;
+  background-color: var(--color-blanco);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form input[type="submit"] {
+  width: 100%;
+  background-color: var(--color-principal);
+  color: var(--color-blanco);
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #a10d25;
 }
 
 /* Responsive */
